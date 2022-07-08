@@ -11,6 +11,18 @@ body {
 #main-nav {
     background-color: #202A44;
     grid-row-end: span 2;
+    gap: 2rem;
+}
+
+#main-nav,
+#primary-nav,
+#secondary-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+
 }
 
 #header {
