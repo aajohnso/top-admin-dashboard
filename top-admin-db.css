@@ -33,10 +33,6 @@ a.nav-item {
     gap: 1rem;
 }
 
-#logo {
-
-}
-
 a.nav-item {
     align-items: center;  
     text-decoration: none;
@@ -173,10 +169,6 @@ main {
 
 .project-icons img {
     width: 24px;
-}
-
-#rt-sidebar {
-
 }
 
 .sidebar-container {
