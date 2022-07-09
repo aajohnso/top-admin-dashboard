@@ -140,12 +140,38 @@ img.profile-pic {
 }
 
 main {
-    background-color: #f1f5f9;
+    background-color: #e2e8f0;
     grid-column-end: span 5;
+    display: grid;
+    grid-template-columns: 75% 25%;
 }
 
 #projects {
+    padding-left: 4rem;
+}
 
+.project-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.project-card {
+    padding: 2rem;
+    background-color: #f8fafc;
+    border-radius: 16px;
+    border-left: 16px solid #94a3b8;
+}
+
+.project-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.project-icons img {
+    width: 24px;
 }
 
 #rt-sidebar {
