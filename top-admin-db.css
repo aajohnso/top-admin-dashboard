@@ -143,10 +143,6 @@ main {
     gap: 2rem;
 }
 
-#projects {
-    
-}
-
 .project-card-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
