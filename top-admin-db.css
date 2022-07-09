@@ -7,7 +7,6 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100vw;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 200px;
@@ -144,10 +143,12 @@ main {
     grid-column-end: span 5;
     display: grid;
     grid-template-columns: 75% 25%;
+    padding: 4rem;
+    gap: 2rem;
 }
 
 #projects {
-    padding-left: 4rem;
+    
 }
 
 .project-card-container {
@@ -176,4 +177,26 @@ main {
 
 #rt-sidebar {
 
+}
+
+.sidebar-container {
+    padding: 2rem;
+    background-color: #f8fafc;
+    border-radius: 16px;
+    margin-bottom: 3rem;
+}
+
+.announcement:nth-child(n+2) {
+    border-top: 1px solid #cbd5e1;
+}
+
+.sidebar-container .user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar-container .user-info img {
+    width: 24px;
 }
